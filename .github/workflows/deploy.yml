@@ -37,4 +37,4 @@ jobs:
           remote-user: ${{ secrets.USERNAME }}
           remote-password: ${{ secrets.PASSWORD }}
           remote-path: ${{ secrets.REMOTE_PATH }}
-          local-path: dist/
+          local-path: ${{ github.workspace }}/dist/
