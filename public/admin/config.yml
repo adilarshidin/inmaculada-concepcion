@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: "adilarshidin/inmaculada-concepcion"
+  branch: master
+
+media_folder: "content/images"
+
+collections:
+  - name: "schedule"
+    label: "Horarios"
+    files:
+      - name: "masses"
+        label: "Misas"
+        file: "content/schedule/masses.md"
+        fields:
+          - { label: "Contenido", name: "body", widget: "markdown" }
