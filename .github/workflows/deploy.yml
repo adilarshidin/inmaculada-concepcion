@@ -1,6 +1,5 @@
 name: Build & Deploy
 
-# Trigger on pushes to main branch
 on:
   push:
     branches: [master]
@@ -34,7 +33,7 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/            # folder to upload
-          server-dir: ${{ secrets.FTP_REMOTE_PATH }}  # path on server; contents of dist go here
-          git-ftp-args: --insecure    # optional
+          local-dir: dist/
+          server-dir: ${{ secrets.FTP_REMOTE_PATH }}
+          security: --insecure
 
