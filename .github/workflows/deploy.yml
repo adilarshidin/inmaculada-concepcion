@@ -34,5 +34,4 @@ jobs:
           remote-host: ${{ secrets.HOST }}
           remote-user: ${{ secrets.USERNAME }}
           remote-password: ${{ secrets.PASSWORD }}
-          ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
           remote-path: ${{ secrets.REMOTE_PATH }}
