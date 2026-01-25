@@ -2,8 +2,7 @@ backend:
   name: github
   repo: "adilarshidin/inmaculada-concepcion"
   branch: master
-  auth_type: implicit
-  app_id: "Ov23lihDFdHHV5f9W4Xd"
+  base_url: https://inmaculadavigo-oauth.onrender.com
 
 media_folder: "content/images"
 
