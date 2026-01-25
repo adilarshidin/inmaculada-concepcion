@@ -26,15 +26,13 @@ jobs:
       - name: Build site
         run: npm run build
 
-      # 5. Deploy via FTP
-      - name: Deploy to Dinahosting FTP
+      # 5. Deploy via SFTP
+      - name: Deploy to Dinahosting via SFTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          port: 21
+          server: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
           local-dir: dist/
-          server-dir: ${{ secrets.FTP_REMOTE_PATH }}
-          security: loose
+          server-dir: ${{ secrets.REMOTE_PATH }}
+          protocol: sftp
