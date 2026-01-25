@@ -28,11 +28,11 @@ jobs:
 
       # 5. Deploy via SFTP
       - name: Deploy to Dinahosting via SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        uses: milanmk/actions-file-deployer@master
         with:
-          server: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          local-dir: dist/
-          server-dir: ${{ secrets.REMOTE_PATH }}
-          protocol: sftp
+          remote-protocol: "sftp"
+          remote-host: ${{ secrets.HOST }}
+          remote-user: ${{ secrets.USERNAME }}
+          remote-password: ${{ secrets.PASSWORD }}
+          ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          remote-path: ${{ secrets.REMOTE_PATH }}
