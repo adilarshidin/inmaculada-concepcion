@@ -36,3 +36,4 @@ jobs:
           remote-password: ${{ secrets.PASSWORD }}
           remote-path: ${{ secrets.REMOTE_PATH }}
           sync: full
+          local-path: dist/
