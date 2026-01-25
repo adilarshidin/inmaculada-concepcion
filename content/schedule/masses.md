@@ -10,5 +10,3 @@ Festivos: 10:00, 12:00.
 Diario: 9:30 y 20:00.\
 Sábados: 18:30 y 20:00.\
 Domingos y festivos: 10:00 y 12:30.
-
-test change
