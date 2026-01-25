@@ -28,9 +28,6 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: List build folder
-        run: ls -R ${{ github.workspace }}/dist/
-
       # 5. Deploy via SFTP
       - name: Deploy to Dinahosting via SFTP
         uses: milanmk/actions-file-deployer@master
