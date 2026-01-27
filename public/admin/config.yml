@@ -11,7 +11,19 @@ collections:
     label: "Horarios"
     files:
       - name: "masses"
-        label: "Misas"
+        label: "Horarios de misas"
         file: "content/schedule/masses.md"
         fields:
           - { label: "Contenido", name: "body", widget: "markdown" }
+
+      - name: "intentions"
+        label: "Intenciones de misas"
+        file: "content/schedule/intentions.md"
+        fields:
+          - label: "Intenciones"
+            name: "intentions"
+            widget: "list"
+            summary: "{{fields.date}} — {{fields.name}}"
+            fields:
+              - { label: "Fecha", name: "date", widget: "string" }
+              - { label: "Intención", name: "name", widget: "string" }
