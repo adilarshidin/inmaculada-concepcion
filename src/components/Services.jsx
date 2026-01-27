@@ -6,6 +6,7 @@ import servicesImage from "../assets/3.webp";
 import ViewWrapper from "./ViewWrapper";
 import SEO from "./SEO";
 import { Link } from "react-router";
+import MassIntentions from "../content-renderers/MassesIntentions";
 
 const ServicesWrapper = styled.div`
   display: flex;
@@ -125,6 +126,12 @@ const Services = () => {
                 <StyledLink to="/about#horarios">horarios de misas</StyledLink> y la información
                 sobre la iglesia.
               </p>
+            </Text>
+          </Card>
+
+          <Card>
+            <Text>
+              <MassIntentions />
             </Text>
           </Card>
         </ServicesWrapper>
