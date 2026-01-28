@@ -27,3 +27,14 @@ collections:
             fields:
               - { label: "Fecha", name: "date", widget: "string" }
               - { label: "Intención", name: "name", widget: "string" }
+
+  - name: "information"
+    label: "Información"
+    files:
+      - name: "contacts"
+        label: "Contactos"
+        file: "content/information/contacts.md"
+        fields:
+          - { label: "Nombre del parroco", name: "name", widget: "string" }
+          - { label: "Número de teléfono", name: "phone", widget: "string" }
+          - { label: "Correo electrónico", name: "email", widget: "string" }

@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { FaFacebook, FaLocationDot, FaPhone } from "react-icons/fa6";
-import { IoMailSharp } from "react-icons/io5";
+import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router";
 
 import tabletImage from "../assets/4.webp";
@@ -8,6 +7,7 @@ import confessionBoothImage from "../assets/5.webp";
 import ViewWrapper from "./ViewWrapper";
 import SEO from "./SEO";
 import MassesSchedule from "../content-renderers/MassesSchedule";
+import ContactInfo from "../content-renderers/ContactInfo";
 
 const ImageBlock = styled.div`
   display: flex;
@@ -129,34 +129,7 @@ const About = () => (
         </p>
       </Section>
 
-      <Section>
-        <h2>Contacto</h2>
-        <p>
-          <strong>Párroco:</strong> D. Miguel Ángel Castro Quinteiro
-        </p>
-        <TextWrapper>
-          <IconCircle>
-            <FaPhone />
-          </IconCircle>
-          <StyledLink href="tel:696759567">696759567</StyledLink>
-        </TextWrapper>
-        <TextWrapper>
-          <IconCircle>
-            <IoMailSharp />
-          </IconCircle>
-          <StyledLink href="mailto:vigo.inmaculada@diocesetuivigo.org">
-            vigo.inmaculada@diocesetuivigo.org
-          </StyledLink>
-        </TextWrapper>
-        <TextWrapper>
-          <IconCircle>
-            <FaFacebook />
-          </IconCircle>
-          <StyledLink href="https://www.facebook.com/p/Parroquia-Inmaculada-Concepci%C3%B3n-de-Vigo-100064541060687/">
-            Facebook
-          </StyledLink>
-        </TextWrapper>
-      </Section>
+      <ContactInfo />
 
       <Section id="horarios" style={{ scrollMarginTop: "25em" }}>
         <h2>Horarios de misas</h2>
