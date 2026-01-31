@@ -43,4 +43,6 @@ intentions:
     name: "12,00: Por el pueblo."
   - date: "Domingo 8-Febrero-2026: V DOMINGO DEL TIEMPO ORDINARIO"
     name: "13,00: Josefina, Manuel, Antonio, José Antonio y José."
+  - date: "Sábado 31-Enero-2026: SAN JUAN BOSCO, PRESBÍTERO"
+    name: "6,30: Celia, su marido, su hijo e hijos políticos."
 ---
