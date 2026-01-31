@@ -16,7 +16,7 @@ intentions:
   - date: "Lunes 2-Febrero-2026: PRESENTACIÓN DEL SEÑOR"
     name: "6,30: Purificación López Mariño y familia Villar López."
   - date: Martes 3-Febrero-2026
-    name: "9,30:"
+    name: "9,30: Ángel y Carmen."
   - date: Martes 3-Febrero-2026
     name: "6,30: PRESENTACIÓN DE LA CAMPAÑA CONTRA EL HAMBRE PRESIDIDA PÒR EL SR.
       OBISPO."
