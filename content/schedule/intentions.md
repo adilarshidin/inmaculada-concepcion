@@ -1,5 +1,7 @@
 ---
 intentions:
+  - date: "Sábado 31-Enero-2026: SAN JUAN BOSCO, PRESBÍTERO"
+    name: "6,30: Celia, su marido, su hijo e hijos políticos."
   - date: "Sábado 31- Enero-2026: SAN JUAN BOSCO, PRESBÍTERO"
     name: "8,00:"
   - date: "Domingo 1-Febrero-2026: IV DOMINGO DEL TIEMPO ORDINARIO"
@@ -43,6 +45,4 @@ intentions:
     name: "12,00: Por el pueblo."
   - date: "Domingo 8-Febrero-2026: V DOMINGO DEL TIEMPO ORDINARIO"
     name: "13,00: Josefina, Manuel, Antonio, José Antonio y José."
-  - date: "Sábado 31-Enero-2026: SAN JUAN BOSCO, PRESBÍTERO"
-    name: "6,30: Celia, su marido, su hijo e hijos políticos."
 ---
