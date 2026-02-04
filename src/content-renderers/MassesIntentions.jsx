@@ -13,6 +13,16 @@ const Table = styled.table`
   border-collapse: collapse;
   font-size: 1rem;
   color: #333;
+
+  @media (max-width: 480px) {
+    border: 0;
+  }
+`;
+
+const Thead = styled.thead`
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 const Th = styled.th`
@@ -23,11 +33,6 @@ const Th = styled.th`
   font-weight: 600;
 `;
 
-const Td = styled.td`
-  border: 1px solid #d1d5db;
-  padding: 0.75rem 1rem;
-`;
-
 const Tr = styled.tr`
   &:nth-child(even) {
     background-color: #fafafa;
@@ -35,7 +40,35 @@ const Tr = styled.tr`
 
   &:hover {
     background-color: #f0f0f0;
-    transition: background-color 0.2s ease;
+  }
+
+  @media (max-width: 480px) {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 0.75rem;
+    background-color: #fff;
+  }
+`;
+
+const Td = styled.td`
+  border: 1px solid #d1d5db;
+  padding: 0.75rem 1rem;
+
+  @media (max-width: 480px) {
+    display: block;
+    border: none;
+    padding: 0.25rem 0;
+
+    &::before {
+      content: attr(data-label);
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #6b7280;
+      margin-bottom: 0.25rem;
+    }
   }
 `;
 
@@ -56,17 +89,17 @@ const MassIntentions = () => {
     <TableWrapper>
       <Heading>Intenciones de misas</Heading>
       <Table>
-        <thead>
+        <Thead>
           <Tr>
             <Th>Fecha</Th>
             <Th>Intención</Th>
           </Tr>
-        </thead>
+        </Thead>
         <tbody>
           {intentions.map((item, index) => (
             <Tr key={index}>
-              <Td>{item.date}</Td>
-              <Td>{item.name}</Td>
+              <Td data-label="Fecha">{item.date}</Td>
+              <Td data-label="Intención">{item.name}</Td>
             </Tr>
           ))}
         </tbody>
