@@ -27,8 +27,7 @@ intentions:
   - date: Jueves 12-Febrero-2026
     name: "9,30: Eusebio Dos Anjos."
   - date: Jueves 12-Febrero-2026
-    name: "6,30: 1ER. ANIVERSARIO DE ALBINA SOUTO GONZÁLEZ Y ANTONIO FERNÁNDEZ
-      NOVOA."
+    name: "6,30:"
   - date: Viernes 13-Febrero-2026
     name: "9,30: "
   - date: Viernes 13-Febrero-2026
