@@ -18,8 +18,8 @@ intentions:
     name: "6,30: Carlos, Ángel Estévez Rodríguez y Enrique Sienes (3º)."
   - date: "Martes 10-Febrero-2026: SANTA ESCOLÁSTICA, VIRGEN"
     name: "9,30: Familiares difuntos de José Castillo, José, Divina y Maruja."
-  - date: "Martes 10-Febrero-2026: SANTA ESCOLÁSTICA, VIRGFEN"
-    name: "6,30:"
+  - date: "Martes 10-Febrero-2026: SANTA ESCOLÁSTICA, VIRGEN"
+    name: 6,30
   - date: "Miércoles 11-Febrero-2026: BIENAVENTURADA VIRGEN MARÍA DE LOURDES"
     name: "9,30: Carmen y Roberto Ledo."
   - date: "Miércoles 11-Febrero-2026: BIENAVENTURADA VIRGEN MARÍA DE LOURDES"
