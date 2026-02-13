@@ -1,37 +1,5 @@
 ---
 intentions:
-  - date: Sábado 7-Febrero-2026
-    name: '6,30: María González Rodríguez ("Maruja de Pergo").'
-  - date: Sábado 7-Febrero-2026
-    name: "8,00:"
-  - date: "Domingo 8-Febrero-2026: V DOMINGO DEL TIEMPO ORDINARIO"
-    name: "10,00: "
-  - date: "Domingo 8-Febrero-2026: V DOMINGO DEL TIEMPO ORDINARIO"
-    name: "12,00: Por el pueblo."
-  - date: "Domingo 8-Febrero-2026: V DOMINGO DEL TIEMPO ORDINARIO"
-    name: "13,00: Josefina, Manuel, Antonio, José Antonio y José."
-  - date: Lunes 9-Febrero-2026
-    name: "9,30:"
-  - date: Lunes 9-Febrero-2026
-    name: "5,30: 1ER. ANIVERSARIO DE CLEMENTE GÓMEZ GONZÁLEZ."
-  - date: Lunes 9-Febrero-2026
-    name: "6,30: Carlos, Ángel Estévez Rodríguez y Enrique Sienes (3º)."
-  - date: "Martes 10-Febrero-2026: SANTA ESCOLÁSTICA, VIRGEN"
-    name: "9,30: Familiares difuntos de José Castillo, José, Divina y Maruja."
-  - date: "Martes 10-Febrero-2026: SANTA ESCOLÁSTICA, VIRGEN"
-    name: 6,30
-  - date: "Miércoles 11-Febrero-2026: BIENAVENTURADA VIRGEN MARÍA DE LOURDES"
-    name: "9,30: Carmen y Roberto Ledo."
-  - date: "Miércoles 11-Febrero-2026: BIENAVENTURADA VIRGEN MARÍA DE LOURDES"
-    name: "6,30: José María (3º), José Ramón y Javier."
-  - date: Jueves 12-Febrero-2026
-    name: "9,30: Eusebio Dos Anjos."
-  - date: Jueves 12-Febrero-2026
-    name: "6,30:"
-  - date: Viernes 13-Febrero-2026
-    name: "9,30: "
-  - date: Viernes 13-Febrero-2026
-    name: "6,30: José Antonio Rodríguez Durán (4º) y Juan José Díaz Echegoren (2º)."
   - date: "Sábado 14-Febrero-2026: SANTOS CIRILO, MOINJE, Y METODIO, OBISPO,
       PATRONOS DE EUROPA"
     name: "6,30: Adriano, Hermandina, Gumersindo Pérez Pérez y María Veiga Gutiérrez
@@ -46,4 +14,36 @@ intentions:
       Manuel."
   - date: "Domingo 15-Febrero-2026: VI DOMINGO DEL TIEMPO ORDINARIO"
     name: "13,00: Por el pueblo."
+  - date: Lunes 16-Febrero-2026
+    name: "9,30: Concepción Iglesias Lorenzo."
+  - date: Lunes 16-Febrero-2026
+    name: "6,30: José, Hermindo y Carmen Andrade."
+  - date: Martes 17-Febrero-2026
+    name: "9,30: Antonio Chimeno."
+  - date: Martes 17-Febrero-2026
+    name: "6,30: Juan Dos Anjos Augusto."
+  - date: "Miércoles 18-Febrero-2026: MIÉRCOLES DE CENIZA"
+    name: "9,30: "
+  - date: "Miércoles 18-Febrero-2026: MIÉRCOLES DE CENIZA"
+    name: 6,30. José Carballo Alonso.
+  - date: Jueves 19-Febrero-2026
+    name: "9,30:"
+  - date: Jueves 19-Febrero-2026
+    name: "6,30:"
+  - date: Viernes 20-Febrero-2026
+    name: "9,30: Carmen y Roberto Ledo."
+  - date: Viernes 20-Febrero-2026
+    name: "6,30: José Rosa Dos Anjos y Clarisa María Dos Anjos."
+  - date: Sábado 21-Febrero-20
+    name: "6,30: Nelson Cid Rodríguez, su hijo Nelson, Ricardo, María y su yerno
+      José Luis."
+  - date: Sábado 21-Febrero-2026
+    name: "8,00: "
+  - date: "Domingo 22-Febrero-2026: I DOMINGO DE CUARESMA"
+    name: "10,00: Josefa Da Silva, Roberto Rosendo, Francisca, Olga y Gerardo
+      Gutiérrez. "
+  - date: "Domingo 22-Febrero-2026: I DOMINGO DE CUARESMA"
+    name: "12,00: Por el pueblo."
+  - date: "Domingo 22-Febrero-2026: I DOMINGO DE CUARESMA"
+    name: "13,00: "
 ---
